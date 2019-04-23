@@ -12,8 +12,8 @@ class Landingpage extends Component {
         <img  className="mainlogo" src={MYtineraryLogo}  alt="mainlogo" /> 
         </div>
 
-        <div>
-        <p className="maintext">Find your perfect trip, designed by insiders 
+        <div className="maintext">
+        <p >Find your perfect trip, designed by insiders 
       who know and love their cities.
         </p>
         </div>

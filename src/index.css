@@ -6,6 +6,11 @@ body {
 
 .maintext {
     text-align: center;
+    margin-bottom: 5%;
+}
+
+.navbar { 
+    margin-bottom: 10%;
 }
 
 .user {
@@ -20,6 +25,7 @@ body {
 
 .logo {
     text-align: center;
+    margin-bottom: 10%;
 }
 
  .mainlogo {
@@ -28,8 +34,22 @@ body {
 
 .circle {
     text-align: center;
+    margin-bottom: 5%;
 }
 .circleR  {
-    width: 15%; 
-
+    width: 25%; 
 }
+
+
+/* Slider */
+
+ .landingslickIMG {
+    height: 125px;
+     width: 95%;
+ }
+
+ .landingslickIMG2 {
+    height: 125px;
+    width: 100%;
+ }
+
