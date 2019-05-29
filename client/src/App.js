@@ -20,8 +20,6 @@ class App extends Component {
               <Route exact path="/" component={Landingpage} />
               <Route path="/login" component={Login} />
               <Route path="/createaccount" component={Createaccount} />
-              {/* <Landingpage /> */}
-              {/* <Popularlocations /> */}
             </main>
           </div>
         </div>

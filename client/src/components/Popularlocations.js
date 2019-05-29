@@ -2,18 +2,18 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; //path to node_modules
 import "slick-carousel/slick/slick-theme.css"; //path to node_modules
-import barcelona from "./images/barcelona.jpg";
-import amsterdam from "./images/amsterdam.jpg";
-import newyork from "./images/newyork.jpg";
-import paris from "./images/paris.jpg";
-import kyoto from "./images/kyoto.jpg";
-import capetown from "./images/capetown.jpg";
-import srilanka from "./images/srilanka.jpg";
-import morocco from "./images/morocco.jpg";
-import india from "./images/india.jpg";
-import singapore from "./images/singapore.jpg";
-import vietnam from "./images/vietnam.jpg";
-import sydney from "./images/sydney.jpg";
+import barcelona from "../images/barcelona.jpg";
+import amsterdam from "../images/amsterdam.jpg";
+import newyork from "../images/newyork.jpg";
+import paris from "../images/paris.jpg";
+import kyoto from "../images/kyoto.jpg";
+import capetown from "../images/capetown.jpg";
+import srilanka from "../images/srilanka.jpg";
+import morocco from "../images/morocco.jpg";
+import india from "../images/india.jpg";
+import singapore from "../images/singapore.jpg";
+import vietnam from "../images/vietnam.jpg";
+import sydney from "../images/sydney.jpg";
 
 class Popularlocations extends Component {
   render() {

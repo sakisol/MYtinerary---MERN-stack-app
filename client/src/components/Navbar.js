@@ -6,11 +6,10 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <i className="fas fa-user-circle" />
-        {/* <i className="fas fa-home"></i> */}
-        <Menu right width={200} id="push">
+        <Menu right width={300} id="push">
           <main id="page-wrap">
-            <a className="menu-item">Log-in</a>
-            <a className="menu-item">Create Account</a>
+            <a className="menu-item">Side</a> <br />
+            <a className="menu-item">bar</a>
           </main>
         </Menu>
       </div>

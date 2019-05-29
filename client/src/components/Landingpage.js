@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import MYtineraryLogo from "../images/MYtineraryLogo.png";
 import circledright from "../images/circledright.png";
 import Bottomnav from "./Bottomnav";
+import Popularlocations from "./Popularlocations";
 
 class Landingpage extends Component {
   render() {
@@ -18,6 +19,8 @@ class Landingpage extends Component {
           </p>
         </div>
 
+        <Popularlocations />
+
         <div className="maintext">
           <p>Start browsing</p>
         </div>
@@ -29,6 +32,7 @@ class Landingpage extends Component {
         <div className="maintext">
           <p>Want to build your own MYtinerary?</p>
         </div>
+
         <Bottomnav />
       </div>
     );
